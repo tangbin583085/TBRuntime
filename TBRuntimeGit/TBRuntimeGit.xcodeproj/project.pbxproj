@@ -15,6 +15,11 @@
 		5101D6BE1F79E7CA00365BDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5101D6BD1F79E7CA00365BDC /* main.m */; };
 		5101D6C81F79E7CA00365BDC /* TBRuntimeGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5101D6C71F79E7CA00365BDC /* TBRuntimeGitTests.m */; };
 		5101D6D31F79E7CA00365BDC /* TBRuntimeGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5101D6D21F79E7CA00365BDC /* TBRuntimeGitUITests.m */; };
+		510FC8D91F7A1E5B00AA98F7 /* NSObject+TBRunTimeGit.m in Sources */ = {isa = PBXBuildFile; fileRef = 510FC8D11F7A1E5B00AA98F7 /* NSObject+TBRunTimeGit.m */; };
+		510FC8DA1F7A1E5B00AA98F7 /* TBRuntimeGitPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 510FC8D31F7A1E5B00AA98F7 /* TBRuntimeGitPerson.m */; };
+		510FC8DB1F7A1E5B00AA98F7 /* TBRuntimeGitPerson2.m in Sources */ = {isa = PBXBuildFile; fileRef = 510FC8D51F7A1E5B00AA98F7 /* TBRuntimeGitPerson2.m */; };
+		510FC8DC1F7A1E5B00AA98F7 /* TBRunTimeGitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 510FC8D71F7A1E5B00AA98F7 /* TBRunTimeGitVC.m */; };
+		510FC8DD1F7A1E5B00AA98F7 /* TBRunTimeGitVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 510FC8D81F7A1E5B00AA98F7 /* TBRunTimeGitVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		5101D6CE1F79E7CA00365BDC /* TBRuntimeGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBRuntimeGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5101D6D21F79E7CA00365BDC /* TBRuntimeGitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBRuntimeGitUITests.m; sourceTree = "<group>"; };
 		5101D6D41F79E7CA00365BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510FC8D01F7A1E5B00AA98F7 /* NSObject+TBRunTimeGit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TBRunTimeGit.h"; sourceTree = "<group>"; };
+		510FC8D11F7A1E5B00AA98F7 /* NSObject+TBRunTimeGit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TBRunTimeGit.m"; sourceTree = "<group>"; };
+		510FC8D21F7A1E5B00AA98F7 /* TBRuntimeGitPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRuntimeGitPerson.h; sourceTree = "<group>"; };
+		510FC8D31F7A1E5B00AA98F7 /* TBRuntimeGitPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRuntimeGitPerson.m; sourceTree = "<group>"; };
+		510FC8D41F7A1E5B00AA98F7 /* TBRuntimeGitPerson2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRuntimeGitPerson2.h; sourceTree = "<group>"; };
+		510FC8D51F7A1E5B00AA98F7 /* TBRuntimeGitPerson2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRuntimeGitPerson2.m; sourceTree = "<group>"; };
+		510FC8D61F7A1E5B00AA98F7 /* TBRunTimeGitVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRunTimeGitVC.h; sourceTree = "<group>"; };
+		510FC8D71F7A1E5B00AA98F7 /* TBRunTimeGitVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRunTimeGitVC.m; sourceTree = "<group>"; };
+		510FC8D81F7A1E5B00AA98F7 /* TBRunTimeGitVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBRunTimeGitVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,7 @@
 		5101D6AD1F79E7CA00365BDC /* TBRuntimeGit */ = {
 			isa = PBXGroup;
 			children = (
+				510FC8CF1F7A1E5B00AA98F7 /* TBRunTimeCode */,
 				5101D6AE1F79E7CA00365BDC /* AppDelegate.h */,
 				5101D6AF1F79E7CA00365BDC /* AppDelegate.m */,
 				5101D6B11F79E7CA00365BDC /* ViewController.h */,
@@ -130,6 +145,22 @@
 				5101D6D41F79E7CA00365BDC /* Info.plist */,
 			);
 			path = TBRuntimeGitUITests;
+			sourceTree = "<group>";
+		};
+		510FC8CF1F7A1E5B00AA98F7 /* TBRunTimeCode */ = {
+			isa = PBXGroup;
+			children = (
+				510FC8D01F7A1E5B00AA98F7 /* NSObject+TBRunTimeGit.h */,
+				510FC8D11F7A1E5B00AA98F7 /* NSObject+TBRunTimeGit.m */,
+				510FC8D21F7A1E5B00AA98F7 /* TBRuntimeGitPerson.h */,
+				510FC8D31F7A1E5B00AA98F7 /* TBRuntimeGitPerson.m */,
+				510FC8D41F7A1E5B00AA98F7 /* TBRuntimeGitPerson2.h */,
+				510FC8D51F7A1E5B00AA98F7 /* TBRuntimeGitPerson2.m */,
+				510FC8D61F7A1E5B00AA98F7 /* TBRunTimeGitVC.h */,
+				510FC8D71F7A1E5B00AA98F7 /* TBRunTimeGitVC.m */,
+				510FC8D81F7A1E5B00AA98F7 /* TBRunTimeGitVC.xib */,
+			);
+			path = TBRunTimeCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +271,7 @@
 			files = (
 				5101D6BB1F79E7CA00365BDC /* LaunchScreen.storyboard in Resources */,
 				5101D6B81F79E7CA00365BDC /* Assets.xcassets in Resources */,
+				510FC8DD1F7A1E5B00AA98F7 /* TBRunTimeGitVC.xib in Resources */,
 				5101D6B61F79E7CA00365BDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +299,11 @@
 			files = (
 				5101D6B31F79E7CA00365BDC /* ViewController.m in Sources */,
 				5101D6BE1F79E7CA00365BDC /* main.m in Sources */,
+				510FC8DC1F7A1E5B00AA98F7 /* TBRunTimeGitVC.m in Sources */,
 				5101D6B01F79E7CA00365BDC /* AppDelegate.m in Sources */,
+				510FC8DB1F7A1E5B00AA98F7 /* TBRuntimeGitPerson2.m in Sources */,
+				510FC8DA1F7A1E5B00AA98F7 /* TBRuntimeGitPerson.m in Sources */,
+				510FC8D91F7A1E5B00AA98F7 /* NSObject+TBRunTimeGit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
