@@ -29,12 +29,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    UIProgressView *myView = [[UIProgressView alloc] initWithProgressViewStyle:UIProgressViewStyleDefault];
-    myView.progress = 0.6;
-    myView.frame = CGRectMake(20, 20, 200, 50);
-    [self.view addSubview:myView];
-
 }
 
 // 给分类添加属性
